@@ -21,3 +21,4 @@ NOTAS*.md
 SCRATCH*
 handoffs/
 *.tgz
+.cache
