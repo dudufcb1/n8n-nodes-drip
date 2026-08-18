@@ -1,0 +1,13 @@
+{
+	"node": "n8n-nodes-base.drip",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes", "Development"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/dudufcb1/n8n-nodes-drip?tab=readme-ov-file"
+			}
+		]
+	}
+}

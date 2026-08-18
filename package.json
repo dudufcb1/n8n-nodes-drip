@@ -1,0 +1,53 @@
+{
+  "name": "n8n-nodes-drip",
+  "version": "0.1.0",
+  "description": "Rate-limit gate for n8n: holds items for a random amount of time between a minimum and a maximum",
+  "license": "MIT",
+  "homepage": "https://github.com/dudufcb1/n8n-nodes-drip",
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n",
+    "delay",
+    "rate-limit",
+    "throttle",
+    "jitter"
+  ],
+  "author": {
+    "name": "Eduardo",
+    "email": "heyimedd@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dudufcb1/n8n-nodes-drip.git"
+  },
+  "scripts": {
+    "build": "n8n-node build",
+    "build:watch": "tsc --watch",
+    "dev": "n8n-node dev",
+    "lint": "n8n-node lint",
+    "lint:fix": "n8n-node lint --fix",
+    "release": "n8n-node release",
+    "prepublishOnly": "n8n-node prerelease"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "strict": true,
+    "credentials": [],
+    "nodes": [
+      "dist/nodes/Drip/Drip.node.js"
+    ]
+  },
+  "devDependencies": {
+    "@n8n/node-cli": "*",
+    "eslint": "9.32.0",
+    "prettier": "3.6.2",
+    "release-it": "^19.0.4",
+    "typescript": "5.9.2"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
+}

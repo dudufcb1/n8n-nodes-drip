@@ -1,0 +1,22 @@
+dist
+node_modules
+
+# Editores / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Entorno / secretos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Notas de trabajo
+HANDOFF*.md
+NOTAS*.md
+SCRATCH*
+handoffs/
